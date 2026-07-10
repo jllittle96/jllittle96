@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Haven Bookstore | Events &amp; Community</title>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img src="images/logo.png" alt="Book Haven Bookstore logo">
+    </a>
+    <h1>Book Haven Bookstore</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h2>Events, Community &amp; Testimonials</h2>
+
+    <section id="testimonials">
+      <h3>&#11088; Customer Testimonials</h3>
+
+      <article class="testimonial-card">
+        <p>&ldquo;Book Haven is my go-to for every read. The staff are incredibly
+          knowledgeable and helpful!&rdquo;</p>
+        <p class="attribution">&mdash; Sarah M.</p>
+      </article>
+
+      <article class="testimonial-card">
+        <p>&ldquo;I love the cozy atmosphere and amazing selection. Found some rare gems
+          here I couldn&rsquo;t find anywhere else.&rdquo;</p>
+        <p class="attribution">&mdash; James R.</p>
+      </article>
+
+      <article class="testimonial-card">
+        <p>&ldquo;The custom order service is fantastic. They helped me find my favorite
+          academic journals quickly!&rdquo;</p>
+        <p class="attribution">&mdash; Aisha T.</p>
+      </article>
+    </section>
+
+    <section id="community-involvement">
+      <h3>&#127757; Community Involvement</h3>
+
+      <article class="community-card">
+        <img src="images/community-school-partnerships.jpg" alt="Books donated to a local school">
+        <h4>Local School Partnerships</h4>
+        <p>Donating books to underserved schools in the community.</p>
+      </article>
+
+      <article class="community-card">
+        <img src="images/community-reading-clubs.jpg" alt="Reading club members gathered in the store">
+        <h4>Reading Clubs</h4>
+        <p>Monthly book club meetings open to all community members.</p>
+      </article>
+
+      <article class="community-card">
+        <img src="images/community-literacy-workshops.jpg" alt="A literacy workshop in progress">
+        <h4>Literacy Workshops</h4>
+        <p>Free workshops promoting reading and creative writing skills.</p>
+      </article>
+    </section>
+
+    <section id="upcoming-events">
+      <h3>&#128197; Upcoming Events &amp; Collaborations</h3>
+
+      <article class="event-card">
+        <time datetime="2026-07-04">July 4, 2026</time>
+        <h4>Summer Reading Kickoff</h4>
+        <p>Celebrate summer with special discounts &amp; author Q&amp;As.</p>
+      </article>
+
+      <article class="event-card">
+        <time datetime="2026-07-15">July 15, 2026</time>
+        <h4>Author Meet &amp; Greet</h4>
+        <p>Meet local author Jane Doe, signing copies of her new novel.</p>
+      </article>
+
+      <article class="event-card">
+        <time datetime="2026-08-01">August 1, 2026</time>
+        <h4>Back-to-School Sale</h4>
+        <p>15% off all academic books, journals, and office supplies.</p>
+      </article>
+
+      <article class="event-card">
+        <time datetime="2026-08-20">August 20, 2026</time>
+        <h4>Children&rsquo;s Story Hour</h4>
+        <p>Weekly story reading sessions for children ages 4&ndash;10.</p>
+      </article>
+
+      <p>For inquiries, contact us at <a href="mailto:info@bookhavenbookstore.com">info@bookhavenbookstore.com</a>.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <form id="newsletter-form">
+      <label for="newsletter-email">Subscribe to Newsletter:</label>
+      <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <nav aria-label="Social media links">
+      <ul>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Footer site navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
