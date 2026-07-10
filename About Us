@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Haven Bookstore | About Us</title>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img src="images/logo.png" alt="Book Haven Bookstore logo">
+    </a>
+    <h1>Book Haven Bookstore</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Book Haven Bookstore</h2>
+      <img src="images/store-photo.jpg" alt="Front entrance of Book Haven Bookstore">
+      <p>Book Haven Bookstore is a local treasure for book enthusiasts, offering a diverse
+        selection of books, magazines, journals, and office supplies. With a deep-rooted
+        commitment to fostering literary exploration and a love for reading, our central goal is
+        to amplify visibility and cultivate a vibrant literary community. We serve avid readers,
+        students, and individuals seeking quality reading materials and office essentials.</p>
+    </section>
+
+    <section id="hours">
+      <h2>Hours of Operation</h2>
+      <table>
+        <caption>Book Haven Bookstore weekly hours</caption>
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday &ndash; Friday</td>
+            <td>9:00 a.m. &ndash; 8:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>10:00 a.m. &ndash; 6:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>11:00 a.m. &ndash; 5:00 p.m.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Feedback &amp; Custom Orders</h2>
+      <form id="contact-form">
+
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email-address">Email Address</label>
+        <input type="email" id="email-address" name="email-address" required>
+
+        <label for="phone-number">Phone Number</label>
+        <input type="tel" id="phone-number" name="phone-number" placeholder="Optional">
+
+        <label for="order-type">Order Type</label>
+        <select id="order-type" name="order-type">
+          <option value="feedback">Feedback</option>
+          <option value="custom-order">Custom Order</option>
+        </select>
+
+        <label for="message">Message / Order Details</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <fieldset>
+          <label for="custom-order-checkbox">
+            <input type="checkbox" id="custom-order-checkbox" name="custom-order-checkbox">
+            Custom Order
+          </label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear Form</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <form id="newsletter-form">
+      <label for="newsletter-email">Subscribe to Newsletter:</label>
+      <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <nav aria-label="Social media links">
+      <ul>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Footer site navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
