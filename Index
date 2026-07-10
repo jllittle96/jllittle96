@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Haven Bookstore | Home</title>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img src="images/logo.png" alt="Book Haven Bookstore logo">
+    </a>
+    <h1>Book Haven Bookstore</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <img src="images/hero-banner.jpg" alt="Interior of Book Haven Bookstore">
+      <h2>Welcome to Book Haven Bookstore</h2>
+      <p>Your local treasure for books, magazines, journals &amp; office supplies.</p>
+      <a href="gallery.html"><button type="button">Shop Now</button></a>
+    </section>
+
+    <!-- Current Promotions -->
+    <section id="promotions">
+      <h2>&#127881; Current Promotions</h2>
+      <article class="promo-card">
+        <h3>20% Off Fiction</h3>
+        <p>This weekend only &ndash; save 20% on all fiction titles.</p>
+      </article>
+      <article class="promo-card">
+        <h3>Buy 2 Get 1 Free</h3>
+        <p>Buy any two magazines and get a third one free.</p>
+      </article>
+      <article class="promo-card">
+        <h3>Free Tote Bag</h3>
+        <p>Receive a free Book Haven tote bag with any order over $50.</p>
+      </article>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured-products">
+      <h2>Featured Products</h2>
+      <article class="product-card">
+        <img src="images/product-brie-mine-4ever.jpg" alt="Cover of Brie Mine 4Ever">
+        <h3>Brie Mine 4Ever (Book)</h3>
+      </article>
+      <article class="product-card">
+        <img src="images/product-glory-riders.jpg" alt="Cover of Glory Riders">
+        <h3>Glory Riders (Book)</h3>
+      </article>
+      <article class="product-card">
+        <img src="images/product-sorcerers-chronicles.jpg" alt="Cover of Sorcerer's Chronicles">
+        <h3>Sorcerer&rsquo;s Chronicles (Book)</h3>
+      </article>
+      <article class="product-card">
+        <img src="images/product-tote-bag.jpg" alt="Book Haven tote bag">
+        <h3>Tote Bag</h3>
+      </article>
+    </section>
+
+    <!-- Shopping Perks -->
+    <section id="shopping-perks">
+      <h2>&#10024; Shopping Perks</h2>
+      <ul>
+        <li>Free Shipping over $35</li>
+        <li>Loyalty Rewards Program</li>
+        <li>Expert Book Recommendations</li>
+      </ul>
+    </section>
+
+    <!-- Shop by Category -->
+    <section id="categories">
+      <h2>Shop by Category</h2>
+      <ul>
+        <li><a href="gallery.html">Books</a></li>
+        <li><a href="gallery.html">Magazines</a></li>
+        <li><a href="gallery.html">Journals</a></li>
+        <li><a href="gallery.html">Office Supplies</a></li>
+        <li><a href="gallery.html">Merchandise</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <form id="newsletter-form">
+      <label for="newsletter-email">Subscribe to Newsletter:</label>
+      <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <nav aria-label="Social media links">
+      <ul>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Footer site navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
