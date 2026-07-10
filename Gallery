@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Haven Bookstore | Gallery</title>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img src="images/logo.png" alt="Book Haven Bookstore logo">
+    </a>
+    <h1>Book Haven Bookstore</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="gallery-heading">
+      <h2>Our Collection</h2>
+      <button type="button" id="view-cart-btn">&#128722; View Cart</button>
+    </section>
+
+    <section id="product-gallery">
+
+      <article class="product-card">
+        <img src="images/product-brie-mine-4ever.jpg" alt="Cover of Brie Mine 4Ever">
+        <h3>Brie Mine 4Ever (Book)</h3>
+        <p>A heartfelt story of friendship, cheese boards, and second chances.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-glory-riders.jpg" alt="Cover of Glory Riders">
+        <h3>Glory Riders (Book)</h3>
+        <p>An adventure novel following a crew chasing legend across open roads.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-sorcerers-chronicles.jpg" alt="Cover of Sorcerer's Chronicles">
+        <h3>Sorcerer&rsquo;s Chronicles (Book)</h3>
+        <p>An epic fantasy saga of magic, mystery, and hidden kingdoms.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-ball-magazine.jpg" alt="Cover of Ball Magazine">
+        <h3>Ball Magazine</h3>
+        <p>Monthly coverage of sports, athletes, and behind-the-scenes stories.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-travel-magazine.jpg" alt="Cover of Travel Magazine">
+        <h3>Travel Magazine</h3>
+        <p>Destination guides, travel tips, and inspiration for your next trip.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-eat-magazine.jpg" alt="Cover of Eat. Magazine">
+        <h3>Eat. Magazine</h3>
+        <p>Recipes, restaurant reviews, and food culture from around the world.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-tote-bag.jpg" alt="Book Haven tote bag">
+        <h3>Tote Bag</h3>
+        <p>A durable canvas tote bag featuring the Book Haven logo.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-notebook.jpg" alt="Book Haven branded notebook">
+        <h3>Book Haven Notebook</h3>
+        <p>A lined notebook, perfect for journaling or jotting down your next read.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/product-sticker-set.jpg" alt="Sticker set featuring bookish designs">
+        <h3>Sticker Set</h3>
+        <p>A set of bookish stickers to decorate laptops, journals, and more.</p>
+        <button type="button" class="add-to-cart">+ Add to Cart</button>
+      </article>
+
+    </section>
+
+    <!-- Shopping cart modal (structure only; behavior added in a later touchstone) -->
+    <div id="cart-modal" role="dialog" aria-labelledby="cart-heading" hidden>
+      <button type="button" id="close-cart-btn" aria-label="Close cart">&times;</button>
+      <h2 id="cart-heading">Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <button type="button" id="clear-cart-btn">Clear Cart</button>
+      <button type="button" id="process-order-btn">Process Order</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <form id="newsletter-form">
+      <label for="newsletter-email">Subscribe to Newsletter:</label>
+      <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <nav aria-label="Social media links">
+      <ul>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Footer site navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Events</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
